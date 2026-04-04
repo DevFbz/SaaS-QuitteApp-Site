@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "NODE_ENV=production node dist/index.js",
+    "start": "node --trace-deprecation index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
