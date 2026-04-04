@@ -4,21 +4,21 @@
    ============================================================ */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
+import NotFound from "@/pages/notfound";
 import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
-import Home from "./pages/Home";
-import Funcionalidades from "./pages/Funcionalidades";
-import ComoFunciona from "./pages/ComoFunciona";
-import Precos from "./pages/Precos";
-import Sobre from "./pages/Sobre";
-import Blog from "./pages/Blog";
-import Carreiras from "./pages/Carreiras";
-import Contato from "./pages/Contato";
+import Home from "./pages/home";
+import Funcionalidades from "./pages/funcionalidades";
+import ComoFunciona from "./pages/comofunciona";
+import Precos from "./pages/precos";
+import Sobre from "./pages/sobre";
+import Blog from "./pages/blog";
+import Carreiras from "./pages/carreiras";
+import Contato from "./pages/contato";
 import { useEffect } from "react";
 
 // Scroll to top on route change
