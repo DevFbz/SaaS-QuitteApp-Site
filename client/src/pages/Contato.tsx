@@ -48,15 +48,15 @@ export default function Contato() {
               },
               {
                 icon: Phone,
-                title: 'Telefone',
-                value: '+55 (11) 98765-4321',
+                title: 'WhatsApp',
+                value: '+55 (21) 98765-4321',
                 desc: 'Segunda a sexta, 9h às 18h',
               },
               {
                 icon: MapPin,
                 title: 'Localização',
-                value: 'São Paulo, SP',
-                desc: 'Av. Paulista, 1000 - São Paulo',
+                value: 'Rio de Janeiro, RJ',
+                desc: 'Av. João de Deus Menezes, 2026 - Rio de Janeiro',
               },
             ].map((contact, i) => (
               <AnimatedSection key={contact.title} animation="fadeUp" delay={i * 100}>
