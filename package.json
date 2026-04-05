@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node --trace-deprecation index.js",
-    "preview": "vite preview --host",
+    "start": "node --trace-deprecation node_modules/vite/bin/vite.js",
+    "preview": "vite preview",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
   },
