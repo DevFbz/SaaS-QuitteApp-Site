@@ -90,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* ─── FEATURES ─── */}
-      <section className="py-24 bg-foreground/[0.02]">
+      <section className="py-24 bg-foreground/2">
         <div className="container">
           <AnimatedSection animation="fadeUp" className="text-center mb-16">
             <div className="section-label mb-3">FUNCIONALIDADES</div>
@@ -152,7 +152,7 @@ export default function Home() {
       </section>
 
       {/* ─── TESTIMONIALS ─── */}
-      <section className="py-24 bg-foreground/[0.02]">
+      <section className="py-24 bg-foreground/2">
         <div className="container">
           <AnimatedSection animation="fadeUp" className="text-center mb-16">
             <div className="section-label mb-3">DEPOIMENTOS</div>
@@ -240,7 +240,7 @@ export default function Home() {
       </section>
 
       {/* ─── FINAL CTA ─── */}
-      <section className="py-24 bg-gradient-to-r from-primary to-primary/80 text-white">
+      <section className="py-24 bg-linear-to-r from-primary to-primary/80 text-white">
         <div className="container text-center">
           <AnimatedSection animation="scaleUp">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
@@ -274,7 +274,7 @@ export default function Home() {
       </section>
 
       {/* ─── NEWSLETTER ─── */}
-      <section className="py-16 bg-foreground/[0.02] border-t border-border">
+      <section className="py-16 bg-foreground/2 border-t border-border">
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <AnimatedSection animation="fadeLeft">
