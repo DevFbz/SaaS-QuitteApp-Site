@@ -1,6 +1,6 @@
 /* ============================================================
    QUITTE App — Dark Editorial Luxury
-   Routes: Home, Funcionalidades, Como Funciona, Preços, Sobre
+   Routes: home, funcionalidades, Como Funciona, Preços, sobre
    ============================================================ */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,14 +11,14 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
-import Home from "./pages/home";
-import Funcionalidades from "./pages/funcionalidades";
-import ComoFunciona from "./pages/comofunciona";
-import Precos from "./pages/precos";
-import Sobre from "./pages/sobre";
-import Blog from "./pages/blog";
-import Carreiras from "./pages/carreiras";
-import Contato from "./pages/contato";
+import home from "./pages/home";
+import funcionalidades from "./pages/funcionalidades";
+import comofunciona from "./pages/comofunciona";
+import precos from "./pages/precos";
+import sobre from "./pages/sobre";
+import blog from "./pages/blog";
+import carreiras from "./pages/carreiras";
+import contato from "./pages/contato";
 import { useEffect } from "react";
 
 // Scroll to top on route change
@@ -39,14 +39,14 @@ function Router() {
       <Navbar />
       <main key={location} className="page-enter">
         <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/funcionalidades" component={Funcionalidades} />
-          <Route path="/como-funciona" component={ComoFunciona} />
-          <Route path="/precos" component={Precos} />
-          <Route path="/sobre" component={Sobre} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/carreiras" component={Carreiras} />
-          <Route path="/contato" component={Contato} />
+          <Route path="/" component={home} />
+          <Route path="/funcionalidades" component={funcionalidades} />
+          <Route path="/como-funciona" component={comofunciona} />
+          <Route path="/precos" component={precos} />
+          <Route path="/sobre" component={sobre} />
+          <Route path="/blog" component={blog} />
+          <Route path="/carreiras" component={carreiras} />
+          <Route path="/contato" component={contato} />
           <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </Switch>
