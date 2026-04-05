@@ -36,7 +36,7 @@ const testimonials = [
   },
 ];
 
-export default function home() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* ─── HERO ─── */}

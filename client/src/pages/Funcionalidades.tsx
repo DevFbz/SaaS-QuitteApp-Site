@@ -78,7 +78,7 @@ export default function Funcionalidades() {
           {/* Extra badges */}
           <AnimatedSection animation="fadeUp" delay={200} className="flex flex-wrap gap-3 mt-10">
             {extras.map((e) => (
-              <div key={e.label} className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/3">
+              <div key={e.label} className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/[0.03]">
                 <e.icon size={14} className="text-white/60" />
                 <span className="font-body text-white/60 text-sm">{e.label}</span>
               </div>
